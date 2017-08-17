@@ -7,8 +7,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>My profile</title>
 </head>
 <body>
     <nav class="navbar navbar-inverse">
@@ -24,14 +24,16 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">My skills</a></li>
-                    <li><a href="#">Try this game</a></li>
-                    <li><a href="#">Contact me</a></li>
+                    <li><a href="myskills">My skills</a></li>
+                    <li><a href="game">Try this game</a></li>
+                    <li><a href="contactme">Contact me</a></li>
                 </ul>
             </div><!-- navbar-collapse -->
         </div>
     </nav>
-<p>
+    <div ng-view>
+
+    </div>
  <!-- footer -->
 <div class="footer navbar-fixed-bottom text-center">
   <p><i class="fa fa-creative-commons" aria-hidden="true"></i> 2017 </p>
