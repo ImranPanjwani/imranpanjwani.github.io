@@ -1,0 +1,12 @@
+html, body {
+    overflow: visible;
+}
+
+.panel-heading{
+	color:black !important;
+	font-weight:bold;
+}
+.adj-padding{
+    margin-left: auto -490px;
+	
+}
