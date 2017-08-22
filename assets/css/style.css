@@ -6,7 +6,15 @@ html, body {
 	color:black !important;
 	font-weight:bold;
 }
+
 .adj-padding{
     margin-left: auto -490px;
-	
+}
+
+.carousel-indicators li {
+  border: 1px solid black;
+}
+
+.carousel-indicators .active {
+  background-color: black;
 }
