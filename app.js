@@ -13,7 +13,9 @@ $(document).ready(function(){
       e.preventDefault();
       $('#my-profile-slider').hide();
       $('#contact-me').show();
+      $('.navbar-toggle').click();
     })
+
 
 });
 
