@@ -1,20 +1,57 @@
-html, body {
-    overflow: visible;
+@media (min-width: 0px) and (max-width: 767px) {
+  .column {
+    margin-left : 10px;
+    margin-right : 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .columns{
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+  
+}
+.box {
+  border : 3px solid hsl(171, 100%, 41%);
+  border-radius: 9px;
+  padding: 10px;
+  color: hsl(171, 100%, 41%);
+  -webkit-transition: all 250ms ease-out;
+  -moz-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
+  transition: all 250ms ease-out; 
+  cursor: pointer;
+}
+.box:hover {
+ box-shadow: 10px 10px 11px rgba(33,33,33,.2);
+}
+.box:active {
+  color: white;
+  background-color: hsl(171, 100%, 41%);
+}
+ul {
+    list-style-type: circle;
+    line-height: 2;
+}
+li {
+  margin-left: 20%;
+}
+.navbar .navbar-brand {
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 
-.panel-heading{
-	color:black !important;
-	font-weight:bold;
+.navbar .navbar-brand > .navbar-item,
+.navbar .navbar-brand .navbar-link {
+  display: inline-block;
 }
-
-.adj-padding{
-    margin-left: auto -490px;
+.navbar-brand a.navbar-item:hover {
+    color: black;
 }
-
-.carousel-indicators li {
-  border: 1px solid black;
+i {
+  color: #4A4A4A;
 }
-
-.carousel-indicators .active {
-  background-color: black;
+i:hover {
+  color: black;
 }
